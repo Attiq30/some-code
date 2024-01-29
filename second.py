@@ -1,4 +1,20 @@
-arr= [2,4,6,8,10]
+def check(n1):
+    match n1:
+        case 2:
+            print("mathced with 2")
+        case 3:
+            print("mathced with 3")
+        case 5:
+            print("mathced with 5")
+        case 7:
+            print("mathced with 7")     
+        case 11:
+            print("mathced with 11")
+        case _ :
+            print("not matched in these small prime numbers")
 
-for i in range(len(arr)):
-    print(i)
+
+c= int(input("enter any number: "))
+check(c)
+
+
