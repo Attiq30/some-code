@@ -8,7 +8,7 @@ def sub(n1, n2):
 
 def mul(n1, n2):
     return n1 * n2
-
+    
 
 def div(n1, n2):
     return n1 / n2
@@ -20,7 +20,7 @@ while(True):
     if number==5:
         break
 
-    
+
     a=int(input("enter first number: "))
     b=int(input("enter secoind number: "))
     

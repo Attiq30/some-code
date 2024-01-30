@@ -1,4 +1,4 @@
-def check(n1):
+"""def check(n1):
     match n1:
         case 2:
             print("mathced with 2")
@@ -15,6 +15,20 @@ def check(n1):
 
 
 c= int(input("enter any number: "))
-check(c)
+check(c)"""
+
+
+def find(a):
+    for i in arr:
+        if i % 2==0:
+            print("the even numbers are",i)
+        else:
+            print("the odd numbers are", i)
+
+
+
+arr =[1,2,3,4,5,6,7]
+
+find(arr)
 
 
