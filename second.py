@@ -1,4 +1,4 @@
-"""def check(n1):
+def check(n1):
     match n1:
         case 2:
             print("mathced with 2")
@@ -15,7 +15,7 @@
 
 
 c= int(input("enter any number: "))
-check(c)"""
+check(c)
 
 
 def find(a):
